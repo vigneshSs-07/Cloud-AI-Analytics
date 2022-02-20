@@ -1,0 +1,5 @@
+• Resources:
+
+o https://beam.apache.org/documentation/programming-guide/#pcollections
+
+o https://beam.apache.org/releases/pydoc/2.36.0/apache_beam.io.textio.html?highlight=readfromtext#apache_beam.io.textio.ReadFromText
