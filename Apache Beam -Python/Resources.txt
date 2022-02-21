@@ -3,3 +3,28 @@
 o https://beam.apache.org/documentation/programming-guide/#pcollections
 
 o https://beam.apache.org/releases/pydoc/2.36.0/apache_beam.io.textio.html?highlight=readfromtext#apache_beam.io.textio.ReadFromText
+
+Tutorial 3 a – Transforms in Apache Beam:
+Map, FlatMap and Filter:
+
+Tutorial 3 b – ParDo Transform in Apache Beam:
+Map, FlatMap and Filter:
+
+Tutorial 3 c – GroupBy, GroupByKey, GroupIntoBatches and CoGroupByKey Transform in Apache Beam:
+Map, FlatMap and Filter:
+
+Tutorial 3 d – Combine, Flatten and Partition Transform in Apache Beam:
+Map, FlatMap and Filter:
+
+Tutorial 3 e – latest, Max, Min, Sample, Sum and Top Transform in Apache Beam:
+
+https://beam.apache.org/documentation/transforms/python/elementwise/flatmap/#example-3-flatmap-with-a-lambda-function
+https://beam.apache.org/documentation/programming-guide/#configuring-pipeline-options
+https://deloittedevelopment.udemy.com/course/apache-beam-a-hands-on-course-to-build-big-data-pipelines/learn/lecture/16131737#overview
+https://deloittedevelopment.udemy.com/course/apache-beam/learn/lecture/18446712#overview
+
+
+
+
+
+
