@@ -4,19 +4,53 @@ o https://beam.apache.org/documentation/programming-guide/#pcollections
 
 o https://beam.apache.org/releases/pydoc/2.36.0/apache_beam.io.textio.html?highlight=readfromtext#apache_beam.io.textio.ReadFromText
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Tutorial 3 a – Transforms in Apache Beam:
 Map, FlatMap and Filter:
 
+Map:
+•	Applies a simple 1-to-1 mapping function over each element in the collection.
+FlatMap:
+•	Applies a simple 1-to-many mapping function over each element in the collection. The many elements are flattened into the resulting collection.
+Filter:
+•	Given a predicate, filter out all elements that don’t satisfy that predicate. May also be used to filter based on an inequality with a given value based on the comparison ordering of the element.
+Lambda:
+•	A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
+•	lambda arguments : expression
+•	x = lambda a : a + 10
+print(x(5))
+Resources:
+•	https://beam.apache.org/documentation/transforms/python/elementwise/map/
+•	https://beam.apache.org/documentation/transforms/python/elementwise/flatmap/ 
+•	https://beam.apache.org/documentation/transforms/python/elementwise/filter/#example-2-filtering-with-a-lambda-function 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Tutorial 3 b – ParDo Transform in Apache Beam:
-Map, FlatMap and Filter:
+
+core beam transform : parDo
+element wise: Keys, Kvswap, Values, ToString
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tutorial 3 c – GroupBy, GroupByKey, GroupIntoBatches and CoGroupByKey Transform in Apache Beam:
-Map, FlatMap and Filter:
+
+.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tutorial 3 d – Combine, Flatten and Partition Transform in Apache Beam:
-Map, FlatMap and Filter:
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tutorial 3 e – latest, Max, Min, Sample, Sum and Top Transform in Apache Beam:
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Resources:
 
 https://beam.apache.org/documentation/transforms/python/elementwise/flatmap/#example-3-flatmap-with-a-lambda-function
 https://beam.apache.org/documentation/programming-guide/#configuring-pipeline-options
