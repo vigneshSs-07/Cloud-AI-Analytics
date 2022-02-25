@@ -79,10 +79,7 @@ https://beam.apache.org/documentation/transforms/python/elementwise/tostring/
 
 Tutorial 3 c – GroupBy, GroupByKey, GroupIntoBatches and CoGroupByKey Transform in Apache Beam:
 
-.
 
-
-Tutorial 3f - Combine Core Transformation in Apache Beam:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tutorial 3d –  Flatten and Partition Transform in Apache Beam:
