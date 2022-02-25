@@ -1,0 +1,11 @@
+Id,Student_name,City,Age,Marks,Result
+1,vignesh,chn,27,15,FAIL
+2,joey,us,51,20,FAIL
+3,chandler,us,53,68,PASS
+4,khaula,hyd,26,99,PASS
+5,neethu,uae,27,100,PASS
+6,sree,koc,25,27,FAIL
+7,sai,mad,21,71,PASS
+8,sabari,vel,25,75,PASS
+9,tinkle,ker,27,9,FAIL
+10,swati,ind,24,91,PASS
