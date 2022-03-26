@@ -1,0 +1,20 @@
+[1,10,20,40,50,9] 
+counts = 6
+
+Coventional combiners cannot calculate correct results for a mean or division of numbers.
+1+10+20+40+50+9/6 = 130/6 = 21.667
+
+
+[1,40,10] = 51/3 = 17
+
+						= (17+26.3)/2 => 21.65
+[20,50,9] = 79/3 = 26.3
+
+But beam combiners can provide correct results for these calculations also.
+
+(sum, counts)
+
+[1,40,10] = (51,3)
+
+						= (51+79)/6 = 21.667
+[20,50,9] = (79,3)
