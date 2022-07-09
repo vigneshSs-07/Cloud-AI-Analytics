@@ -18,8 +18,8 @@ gsutil cp <local-filename>  <gcs-bucket-folder>
 
 ### Resources:
 
-https://github.com/GoogleCloudDataproc/spark-bigquery-connector
-https://www.geeksforgeeks.org/creating-a-pyspark-dataframe/
-https://www.analyticsvidhya.com/blog/2021/09/beginners-guide-to-create-pyspark-dataframe/
-https://rs111.medium.com/pandas-with-google-cloud-storage-and-big-query-46961d7bd910
-https://newbedev.com/write-a-pandas-dataframe-to-google-cloud-storage-or-bigquery
+1. https://github.com/GoogleCloudDataproc/spark-bigquery-connector
+2. https://www.geeksforgeeks.org/creating-a-pyspark-dataframe/
+3. https://www.analyticsvidhya.com/blog/2021/09/beginners-guide-to-create-pyspark-dataframe/
+4. https://rs111.medium.com/pandas-with-google-cloud-storage-and-big-query-46961d7bd910
+5. https://newbedev.com/write-a-pandas-dataframe-to-google-cloud-storage-or-bigquery
