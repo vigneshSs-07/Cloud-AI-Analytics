@@ -14,7 +14,7 @@ gcloud dataproc jobs submit pyspark.py \
 
 ### Copy file to gcs bucket
 
-gsutil cp <local-filename>  <gcs-bucket-folder>
+gsutil cp (local-filename-cloudshell)  (gcs-bucket-folder/file)
 
 ### Resources:
 
