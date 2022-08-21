@@ -26,6 +26,6 @@ Looking forward to connecting on the same.
 Regards,
 vignesh sekar s. 
 
-![Uploading Screenshot 2022-08-21 at 9.30.46 PM.png…]()
+
 
 
