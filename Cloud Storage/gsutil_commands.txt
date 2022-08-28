@@ -33,7 +33,13 @@ export YOUR_BUCKET_NAME=demo05-005
 
     g. gsutil cp gs://$YOUR_BUCKET_NAME/kitten.png gs://$YOUR_BUCKET_NAME/just-a-folder/kitten3.png
     
-    Move or rename files in the bucket
+    1. Move or rename files in the bucket
+    
+    Move:
+    
+    a. gsutil mv ./dir gs://$YOUR_BUCKET_NAME
+    
+    Rename:
     
     a. gsutil mv gs://$YOUR_BUCKET_NAME/foldername_old gs://$YOUR_BUCKET_NAME/foldername_new
     
