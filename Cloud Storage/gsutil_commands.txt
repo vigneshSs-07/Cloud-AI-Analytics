@@ -1,0 +1,62 @@
+Get Version Information Of gsutil - hgsutil version -l
+
+Get Image: wget https://cloud.google.com/storage/images/kitten.png
+
+export LOCATION=us-central1
+export YOUR_BUCKET_NAME=demo05-005
+
+1. Make buckets in CLoud Storage
+
+    a. gsutil mb -b on -l $LOCATION gs://$YOUR_BUCKET_NAME
+    
+2. Upload an object into your bucket.Use Cloud Shell to upload an object into a bucket.To download this image (ada.jpg) into your bucket, enter this command into Cloud Shell:
+
+    b. curl https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/800px-Ada_Lovelace_portrait.jpg --output ada.jpg
+    
+3. Use the gsutil cp command to upload the image from the location where you saved it to the bucket you created:
+
+    c. gsutil cp ada.jpg gs://$YOUR_BUCKET_NAME
+
+4. List contents of a bucket or folder.Use the gsutil ls command to list the contents of the bucket:
+
+    d. gsutil ls gs://$YOUR_BUCKET_NAME
+    
+5. To print additional detail about objects and buckets use the gsutil ls -L option.
+
+    e. gsutil ls -L gs://$YOUR_BUCKET_NAME/file_name.   (and)  List details for an object --> gsutil ls -l gs://$YOUR_BUCKET_NAME/file_name
+     
+6. Download the object from your bucket
+
+    f. gsutil cp gs://$YOUR_BUCKET_NAME/file_name.png .
+    
+7. Copy the object to a folder in the bucket
+
+    g. gsutil cp gs://$YOUR_BUCKET_NAME/kitten.png gs://$YOUR_BUCKET_NAME/just-a-folder/kitten3.png
+    
+8. Make the objects publicly accessible
+
+    h. gsutil iam ch allUsers:objectViewer gs://$YOUR_BUCKET_NAME
+    
+9. To remove this access, use the command:
+
+    i. gsutil iam ch -d allUsers:objectViewer gs://$YOUR_BUCKET_NAME
+    
+10. Give someone access to your bucket
+
+    i. gsutil iam ch user:vsekar602@gmail.com:objectCreator,objectViewer gs://$YOUR_BUCKET_NAME
+    
+11. To remove this permission
+
+    j. gsutil iam ch -d user:vsekar602@gmail.com:objectCreator,objectViewer gs://$YOUR_BUCKET_NAME
+    
+12. Delete an object
+
+    j. gsutil rm gs://$YOUR_BUCKET_NAME/kitten.png
+    
+ 12. To avoid incurring charges to your Google Cloud account for the resources used on this page, delete the Cloud project with the resources.
+ 
+    k. gsutil rm -r gs://$YOUR_BUCKET_NAME
+  
+
+
+Resource Link: https://cloud.google.com/storage/docs/gsutil/commands/ls
