@@ -1,4 +1,4 @@
-Get Version Information Of gsutil - hgsutil version -l
+Get Version Information Of gsutil - gsutil version -l
 
 Get Image: wget https://cloud.google.com/storage/images/kitten.png
 
