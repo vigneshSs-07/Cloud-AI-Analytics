@@ -1,0 +1,20 @@
+1. create new bucket for demo
+        ->  gsutil mb -l us-east1 gs://demo01-001
+
+### Commands:
+
+1. gsutil ls
+2. gsutil versioning set on/off gs://<bucket-name>
+3. gsutil versioning get gs://<bucket-name>
+
+### In CLoud Shell:
+
+1. Create a new text file like demo_test.txt
+2. In Cloud Storage, restoring a noncurrent object version means making a copy of it. 
+3. Create a sample file demo_test.txt. Add text to it
+4. Upload it to bucket
+5. Now edit demo_test.txt and save it.Object versioning you cant find it in console but it can be found in gsutil path.
+6. gsutil ls -a gs://<bucket-name>
+7. gsutil ls -a --help. -> To know more about the commands.
+8. To view the file in command line tool use 
+      gsutil cat gs://<bucket-name>/<file-name>
