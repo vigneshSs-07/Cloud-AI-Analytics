@@ -4,8 +4,9 @@
 ### Commands:
 
 1. gsutil ls
-2. gsutil versioning set on/off gs://<bucket-name>
+2. gsutil versioning set on gs://<bucket-name>.  To Enable versioning in bucket
 3. gsutil versioning get gs://<bucket-name>
+4. gsutil versioning set off gs://demo01-001.     To Disable versioning in bucket
 
 ### In CLoud Shell:
 
