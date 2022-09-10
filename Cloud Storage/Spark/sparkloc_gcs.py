@@ -11,5 +11,5 @@ df = spark.read.format("parquet").load("gs://composerbucket-001/userdata1.parque
 df.show()
 
 #write to gcs bucket
-df.write.csv('gs://composerbucket-001/Pyspark/Output1')
+df.write.csv('gs://composerbucket-001/Pyspark/Output1', header=True)
 
