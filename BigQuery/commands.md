@@ -1,0 +1,46 @@
+### How to Read Files From Cloud Storage to BigQuery
+
+a. Using bq command line tool
+b. using console
+
+1. Use the bq mk command to create a new dataset named 
+bq mk baby_names
+
+a. Upload the dataset
+
+1. Run this command to add the baby names zip file to your project, using the URL for the data file:
+curl -LO http://www.ssa.gov/OACT/babynames/names.zip
+
+2. List the file:
+ls
+
+3. Now unzip the file:
+unzip names.zip
+
+4. List the files
+ls
+
+5. Copy file from Cloud Shell to Storage Bucket
+gsutil cp <local_file_name>  <gs://bucket-name/folder>
+
+5. Create your table:
+bq load --source_format=CSV baby_names.names2021 <BUCKET_URL> name:string,gender:string,count:integer
+
+
+### bq command 1
+bq load --source_format=CSV baby_names.names2021 gs://us.artifacts.theta-device-359600.appspot.com/yob2011.txt name:string,gender:string,count:integer
+
+### bq command 2
+bq load --source_format=CSV baby_names.names2020 gs://gcf-sources-799282367979-us-central1/yob2020.txt name:string,gender:string,count:integer
+
+### bq command 3
+bq query \
+--use_legacy_sql=false \
+'SELECT * FROM `theta-device-359600.baby_names.names2020` limit 10';
+
+6. Run bq ls and babynames to confirm that the table now appears in your dataset:
+bq ls baby_names
+
+7. Run bq show and your dataset.table to see the schema
+bq show baby_names.names2020
+bq show baby_names.names2021
