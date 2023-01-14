@@ -19,7 +19,7 @@ Is there any part time trainer vacancy available for above cloud platforms in yo
 Please find my profile below.
 
 * **__LinkedIn Profile:__** https://www.linkedin.com/in/vignesh-sekar-sujatha-02aa9b125/
-* **__Youtube URL:__** https://www.youtube.com/watch?v=FVtGmw8p3uE
+* **__Youtube URL:__** https://www.youtube.com/channel/UCyAnuvrJq_2JCnYm8atLE2w
 
 Looking forward to connecting on the same.
 
