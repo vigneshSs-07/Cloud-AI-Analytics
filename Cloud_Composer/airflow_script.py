@@ -35,7 +35,8 @@ dag=dag
 dataflow_task = DataFlowPythonOperator(
     task_id='pythontaskdataflow',
     py_file='gs://us-east4-composer001-demo-90abd3e4-bucket/dataflow_script_titanic.py',
-    options={'input' : 'gs://us-east4-composer001-demo-90abd3e4-bucket/titanic_dataset.csv'}
+    options={'input' : 'gs://us-east4-composer001-demo-90abd3e4-bucket/titanic_dataset.csv'},
+	dag=dag
 )
 
 end=DummyOperator(
