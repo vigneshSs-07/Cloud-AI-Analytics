@@ -23,4 +23,4 @@
 - https://dzlab.github.io/certification/2022/01/08/gcp-ml-engineer-prep/
 
 
-<**Update Is in Progress**>
+<**Work in Progress**>
