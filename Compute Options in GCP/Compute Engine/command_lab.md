@@ -78,7 +78,7 @@ gcloud compute instances create my-vm-1 --project=mygcpdev-385300 --zone=us-cent
 
 
 
-<div class="footer">
+    <div class="footer">
               copyright © 2022—2023 Cloud & AI Analytics. 
                                       All rights reserved
-          </div>
+            </div>
