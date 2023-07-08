@@ -75,6 +75,9 @@ gcloud compute instances create my-vm-1 --project=mygcpdev-385300 --zone=us-cent
 18. Copy the External IP address for my-vm-1 and paste it into the address bar of a new browser tab.
 
 
+
+
+
 <div class="footer">
               copyright © 2022—2023 Cloud & AI Analytics. 
                                       All rights reserved
