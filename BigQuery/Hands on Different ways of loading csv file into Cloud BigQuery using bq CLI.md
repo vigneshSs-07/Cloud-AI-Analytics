@@ -107,6 +107,8 @@ When you are connected, you are already authenticated, and the project is set to
 
    * bq mkdef --source_format=CSV gs://mybucket/sales.csv > mytable_def
 
+         * Use the **bq mkdef** command to create a table definition in JSON format for data stored in Cloud Storage or Google Drive.
+
    * bq mk --table --external_table_definition=mytable_def \
         demodataset_bqcli.customer_transactions_from_storage \
         id:string,zip:string,ttime:timestamp,amount:numeric,fdbk:float,sku:string
