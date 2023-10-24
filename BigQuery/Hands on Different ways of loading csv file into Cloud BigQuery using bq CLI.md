@@ -1,7 +1,7 @@
 >>> **PROFESSIONAL DATA ENGINEER** - *Google Cloud Platform*
 ------------------------
 
-> TITLE: "Hands on Different ways of loading csv file into Cloud BigQuery using **bq** CLI Commands"
+> TITLE: "Hands on Creating Native and External table in Cloud BigQuery using bq CLI"
 > 
 > Author:
   >- Name: "Vignesh Sekar S"
@@ -101,17 +101,17 @@ When you are connected, you are already authenticated, and the project is set to
       --skip_leading_rows=1 \
       demodataset_bqcli.customer_transactions \
       ./customer_transactions.csv \
-      id:string,zip:string,ttime:timestamp,amount:numeric,fdbk:float,sku:string
+      id:string,zip:string,Timestamp:timestamp,amount:numeric,fdbk:float,sku:string
 
 ###### Creating a table using bq cli from Google Cloud Storage
 
-   * bq mkdef --source_format=CSV gs://mybucket/sales.csv > mytable_def
+   * bq mkdef --source_format=CSV gs://demodataset_biglake/customer_transactions.csv > mytable_def
 
          * Use the **bq mkdef** command to create a table definition in JSON format for data stored in Cloud Storage or Google Drive.
 
    * bq mk --table --external_table_definition=mytable_def \
         demodataset_bqcli.customer_transactions_from_storage \
-        id:string,zip:string,ttime:timestamp,amount:numeric,fdbk:float,sku:string
+        id:string,zip:string,TimeStamp:timestamp,amount:numeric,Feedback:float,sku:string
 
 
 ###### Used the following options:
@@ -133,42 +133,40 @@ When you are connected, you are already authenticated, and the project is set to
 
 ###### Verify that the table loaded by showing the table properties.
 
-   *  bq show bq_load_codelab.customer_transactions
-   *  bq show bq_load_codelab.customer_transactions_from_storage
+   *  bq show demodataset_bqcli.customer_transactions
+   *  bq show demodataset_bqcli.customer_transactions_from_storage
 
 
 ### Get information about tables
 
-   *  bq show --format=prettyjson bq show bq_load_codelab.
+   *  bq show --format=prettyjson demodataset_bqcli.customer_transactions
 
                 (or)
 
-   *  bq show --schema --format=prettyjson lucky-leaf-396003:bq_load_codelab.customer_transactions_from_storage.
+   *  bq show --schema --format=prettyjson lucky-leaf-396003:demodataset_bqcli.customer_transactions_from_storage.
 
 
 ### Query the data
 
-   *  bq head --max_rows=10 --start_row=5 --selected_fields=id,zip \
-        bq_load_codelab.customer_transactions_from_storage
+   *  bq head --max_rows=1 --start_row=1 --selected_fields=id,zip \
+        demodataset_bqcli.customer_transactions_from_storage
 
    *  bq query --nouse_legacy_sql '
-        SELECT SUM(c.amount) AS amount_total, z.state_code AS state_code
-        FROM `bq_load_codelab.customer_transactions` c
-        JOIN `bigquery-public-data.utility_us.zipcode_area` z
-        ON c.zip = z.zipcode
-        GROUP BY state_code'
+        SELECT *
+        FROM `demodataset_bqcli.customer_transactions` c
+        '
 
 ###### Copy data from one table to another table
 
-   *  bq cp bq_load_codelab.customer_transactions_from_storage bq_load_codelab.  customer_transactions_from_storageCopy
+   *  bq cp demodataset_bqcli.customer_transactions demodataset_bqcli.customer_transactions_from_storageCopy
 
 ### Clean up
 
 ### Delete the dataset that you created with the bq rm command. Use the -r flag to remove any tables that it contains.
 
-   *  bq rm -r bq_load_codelab   - Remove Dataset
+   *  bq rm -r demodataset_bqcli   - Remove Dataset
 
-   *  bq rm -t zinc-forge-380121:bq_load_codelab.customer_transactions  - Remove Table
+   *  bq rm -t demodataset_bqcli.customer_transactions  - Remove Table
 
 ### drop table with bq command to avoid confirmation
 
