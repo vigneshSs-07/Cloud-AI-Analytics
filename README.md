@@ -12,7 +12,7 @@ Applying for Part time trainer role - Azure and GCP Cloud Platforms
 
 Hi Team,
 
-I'm Vignesh with 5+years of work experience as both Data Engineer and Data Scientist currently working in Deloitte. I predominantly work in cloud platforms like Microsoft Azure and Google CLoud Platform. I took multiple sessions internally and externally on both the cloud platforms and have completed cloud certifications as well.
+I'm Vignesh with 7+years of work experience as both Data Engineer and Data Scientist currently working in H&M. I predominantly work in cloud platforms like **Microsoft Azure** and **Google CLoud Platform**. I took multiple sessions internally and externally on both the cloud platforms and have completed cloud certifications as well.
 
 Is there any part time trainer vacancy available for above cloud platforms in your esteemed organisation. 
 
