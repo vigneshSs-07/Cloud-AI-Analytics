@@ -8,15 +8,15 @@
 
 ## Udemy Courses
 
-1. **Google Cloud Professional Data Engineer - A Complete Guide** https://www.udemy.com/course/gcp-professional-dataengineer-certification-a-complete-guide/
-2. **Google Cloud BigQuery - A Complete Guide** https://www.udemy.com/course/google-cloud-bigquery-a-complete-guide/
+1. **Google Cloud [**Professional Data Engineer**](https://www.udemy.com/course/gcp-professional-dataengineer-certification-a-complete-guide/) - A Complete Guide** 
+2. **Google Cloud [**BigQuery**](https://www.udemy.com/course/google-cloud-bigquery-a-complete-guide/) - A Complete Guide** 
 
 
 
 Please find my profile below.
 
-* **__LinkedIn Profile:__** https://www.linkedin.com/in/vignesh-sekar-sujatha-02aa9b125/
-* **__Youtube URL:__** https://www.youtube.com/channel/UCyAnuvrJq_2JCnYm8atLE2w
+* [**LinkedIn**](https://www.linkedin.com/in/vignesh-sekar-sujatha-02aa9b125/) 
+* [**Youtube88](https://www.youtube.com/channel/UCyAnuvrJq_2JCnYm8atLE2w)
 
 
 
