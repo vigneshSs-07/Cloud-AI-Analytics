@@ -2,8 +2,8 @@
 
 ## Official Website
 
-1. **Cloud & AI Analytics** https://cloudaianalytics.in/
-2. **Blogs** https://cloudaianalytics.in/blog/
+1. [**Cloud & AI Analytics**](https://cloudaianalytics.in/) 
+2. [**Blogs**](https://cloudaianalytics.in/blog/)
 
 
 ## Udemy Courses
@@ -16,7 +16,7 @@
 Please find my profile below.
 
 * [**LinkedIn**](https://www.linkedin.com/in/vignesh-sekar-sujatha-02aa9b125/) 
-* [**Youtube88](https://www.youtube.com/channel/UCyAnuvrJq_2JCnYm8atLE2w)
+* [**Youtube**](https://www.youtube.com/channel/UCyAnuvrJq_2JCnYm8atLE2w)
 
 
 
