@@ -1,5 +1,9 @@
 # Cloud-AI-Analytics
 
+## SHORTS Contents
+
+1. [**Learn Cloud & Tech in a Minute**](https://cloudaianalytics1707-my.sharepoint.com/:p:/g/personal/support_cloudaianalytics_in/EXvl5vDzHH1CssIJMY2ZGP4BsLxcsxzeOKPHt0qTLGKfKw?e=pdtLeP)
+
 ## Official Website
 
 1. [**Cloud & AI Analytics**](https://cloudaianalytics.in/) 
