@@ -1,0 +1,34 @@
+{
+  "id": "evt-10001",
+  "type": "order_created",
+  "source": "checkout_service",
+  "timestamp": "2025-01-15T12:34:56Z",
+  "customer": {
+    "customer_id": "CUST-9001",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com"
+  },
+  "order": {
+    "order_id": "ORD-56789",
+    "total_amount": 249.75,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "SKU-001",
+        "product_name": "Laptop Backpack",
+        "quantity": 1,
+        "unit_price": 49.75
+      },
+      {
+        "sku": "SKU-002",
+        "product_name": "Noise Cancelling Headphones",
+        "quantity": 1,
+        "unit_price": 200.00
+      }
+    ]
+  },
+  "metadata": {
+    "request_id": "req-001-xyz",
+    "ip_address": "203.0.113.50"
+  }
+}
