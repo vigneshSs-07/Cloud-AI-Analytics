@@ -1,0 +1,4 @@
+pip install psycopg2-binary
+
+
+# cloud-sql-proxy --port=5432 soy-sound-475700-v9:us-central1:postgres-instance-673ecc50
